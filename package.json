@@ -1,0 +1,45 @@
+{
+  "name": "cwvtoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "scripts/test.sh",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:sol": "solium -d .",
+    "lint:sol:fix": "solium -d . --fix",
+    "coverage": "scripts/coverage.sh"
+  },
+  "keywords": [
+    "bitben"
+  ],
+  "author": "CWV",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "coveralls": "^3.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-import": "^0.13.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-import-resolver-node": "^0.3.2",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "ganache-cli": "^6.1.0",
+    "solidity-coverage": "^0.5.0",
+    "solium": "^1.1.7",
+    "truffle": "^4.1.8"
+  }
+}
